@@ -1,0 +1,32 @@
+*{
+    border: 2px solid black;
+    /* padding: 5px; */
+    font-size: large;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+    height: 50px;
+}
+nav{
+    background-color: green;
+    display: inline-block;
+    position: absolute top;
+    /* height: 100px; */ 
+}
+section{
+    background-color: yellow;
+    display: inline-block;
+    /* width: 500px; */
+}
+article{
+    background-color: aquamarine;
+}
+aside{
+    background-color: red;
+    display: inline-block;
+}
+footer{
+    background-color: steelblue;
+    text-align: center;
+}

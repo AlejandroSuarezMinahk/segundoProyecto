@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario de inscripción</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Nombre: </td>
+                <td><label for="Nombre"></label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Apellido: </td>
+                <td><label for="Apellido"></label>
+                    <input type="text" name="apellido" id="apellido" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Correo electrónico: </td>
+                <td><label for="email"></label>
+                    <input type="email" name="email" id="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento: </td>
+                <td><label for="FechaNacimiento"></label>
+                    <input type="date" name="FechaNacimiento" id="FechaNacimiento" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Deporte favorito: </td>
+                <td><label for="Deporte"></label>
+                    <select name="deporte" id="deporte" required>
+                        <option selected="true" disabled="disabled">--</option>
+                        <option>Futbol</option>
+                        <option>Basquet</option>
+                        <option>Polo</option>
+                        <option>Golf</option>
+                        <option>Voley</option>
+                        <option>Natación</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Breve biografia: </td>
+                <td> <label for="biografia"></label>
+                    <input type="text" name="biografia" id="biografia" required</td>
+            </tr>
+        </table>
+
+        <button type="submit"> Enviar </button>
+        <button> Limpiar </button>
+    </form>
+</body>
+
+</html>
