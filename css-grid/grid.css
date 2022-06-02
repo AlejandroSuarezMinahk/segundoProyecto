@@ -1,0 +1,6 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) 1fr;
+    grid-template-rows: minmax(100px, auto) 400px;
+    grid-gap: 20px;
+}

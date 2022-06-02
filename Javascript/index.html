@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigos.js"></script>
+    <title>Javascript</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lugares de interes en Argentina</h1>
+        <nav>
+            <button id="PrimerSaludo" onclick="window.alert('Saludo traido inline');">Primer saludo</button>
+            <button id="SegundoSaludo" onclick="saludo()">Segundo saludo</button>
+            <button id="button" class="button" onclick="obtenerDatos();">Traer datos</button>
+            <button id="button" class="button" onclick="obtenerDatosConPromesas();">Traer datos con promesas</button>
+        </nav>
+    </header>
+
+    <section id="Jujuy">
+        <article>
+            <h2>Jujuy</h2>
+            <p>
+                Con montañas, valles y quebradas, atractiva e histórica,
+                se destaca por su belleza paisajística y su rico patrimonio cultural.
+                Situada en la Región del Norte Grande Argentino,
+                al iniciarse la conquista española, estas tierras ya estaban pobladas
+                por diversos pueblos originarios, en especial quechuas.
+            </p>
+        </article>
+        <figure>
+            <img src="../resources/jujuy.webp" alt="Jujuy" width="320" height="240">
+        </figure>
+    </section>
+
+
+    <section class="traerDatos">
+        <p id="Datos"></p>
+    </section>
+    <section class="promesa">
+        <p id="DatosConPromesas"></p>
+    </section>
+
+</body>
+
+</html>

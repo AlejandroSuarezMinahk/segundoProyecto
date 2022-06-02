@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1024px;
+    height: auto;
+    margin: 10px auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    width:  1024px;
+    height: 60px;
+    background: #515151;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed',
+        Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+
+nav {
+    width:  1024px;
+    height: 50px;
+    background: #515151;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 30px;
+    top: 0;
+}
+
+button {
+    font-size: medium;
+}
+
+/*Para que los links del menu aparezcan uno al lado del otro.*/
+nav button {
+    display: inline;
+    list-style-type: none;
+}
+
+/*Para que cambie de color una vez seleccionamos el item del menu.*/
+nav button,
+nav button:link,
+nav button:visited {
+    float: left;
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding-top: 5px;
+    background: #fc595c;
+}
+
+/*Para cambiar de color al apuntarlo con el mouse.*/
+nav button:hover {
+    color: #515151;
+    background: #fff;
+}
+
+/*Para que vuelva al color normal cuando lo clickeamos.*/
+nav button:active {
+    color: #fff;
+    background: #fc595c;
+}
+
+/*Para lograr el efecto de que el section aparezca gradualmente, 
+es necesario empezar con un valor 0 en la opacidad.*/
+#Jujuy, #BuenosAires, #Cordoba, #TierraDelFuego{
+    opacity: 0;
+}
+
+.promesa{
+    background-color: aquamarine;
+}
+.traerDatos{
+    background-color: violet;
+}
